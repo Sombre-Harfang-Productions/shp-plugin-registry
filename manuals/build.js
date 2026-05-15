@@ -20,15 +20,20 @@ const year = new Date().getFullYear().toString();
 
 const templateStr = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 
-// Embed logo as base64 to avoid broken paths in PDF
-const logoPath = path.join(__dirname, '..', '..', 'pdfdesign', 'shp-manual-skill', 'assets', 'logo-bone.png');
-let logoBase64 = '';
-try {
-  const logoBuffer = fs.readFileSync(logoPath);
-  logoBase64 = `data:image/png;base64,${logoBuffer.toString('base64')}`;
-} catch (e) {
-  console.warn(`Warning: Could not load logo from ${logoPath}`);
+// Embed logos as base64 to avoid broken paths in PDF (especially in CI)
+function getBase64Logo(name) {
+  const logoPath = path.join(__dirname, 'assets', name);
+  try {
+    const buffer = fs.readFileSync(logoPath);
+    return `data:image/png;base64,${buffer.toString('base64')}`;
+  } catch (e) {
+    console.warn(`Warning: Could not load logo from ${logoPath}`);
+    return '';
+  }
 }
+
+const logoBoneBase64 = getBase64Logo('logo-bone.png');
+const logoInkBase64 = getBase64Logo('logo-ink.png');
 
 // Config mapping for each plugin
 const pluginConfigs = {
@@ -122,7 +127,8 @@ async function buildPDF() {
     .replace(/\{\{SN\}\}/g, config.sn)
     .replace(/\{\{VERSION\}\}/g, version)
     .replace(/\{\{YEAR\}\}/g, year)
-    .replace(/\{\{LOGO_BONE\}\}/g, logoBase64)
+    .replace(/\{\{LOGO_BONE\}\}/g, logoBoneBase64)
+    .replace(/\{\{LOGO_INK\}\}/g, logoInkBase64)
     .replace('{{CONTENT}}', contentHtml);
 
   const tempHtmlPath = path.join(__dirname, `temp_${slug}_${Date.now()}.html`);
