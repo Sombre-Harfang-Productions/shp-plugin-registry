@@ -12,8 +12,7 @@
       "asset_pattern": "shp-vocalstrip-{version}-win64.zip",
       "vst3_bundle_name": "SHP Vocal Strip.vst3",
       "description": "Vocal channel strip — clean, fry, growl",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/vocalstrip.png",
-      "manual_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/manuals/vocalstrip.pdf"
+      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/vocalstrip.png"
     },
     {
       "id": "shp.guitarstrip",
@@ -25,8 +24,7 @@
       "asset_pattern": "shp-guitarstrip-{version}-win64.zip",
       "vst3_bundle_name": "SHP Guitar Strip.vst3",
       "description": "Doom-stack guitar channel strip",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/guitarstrip.png",
-      "manual_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/manuals/guitarstrip.pdf"
+      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/guitarstrip.png"
     },
     {
       "id": "shp.bassstrip",
@@ -38,8 +36,7 @@
       "asset_pattern": "shp-bassstrip-{version}-win64.zip",
       "vst3_bundle_name": "SHP Bass Strip.vst3",
       "description": "Low-end channel strip with sub harmonics",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/bassstrip.png",
-      "manual_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/manuals/bassstrip.pdf"
+      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/bassstrip.png"
     },
     {
       "id": "shp.multibandsaturator",
@@ -51,8 +48,7 @@
       "asset_pattern": "shp-multibandsaturator-{version}-win64.zip",
       "vst3_bundle_name": "SHP-mb.vst3",
       "description": "Multiband tube-style saturation",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/multibandsaturator.png",
-      "manual_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/manuals/multibandsaturator.pdf"
+      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/multibandsaturator.png"
     },
     {
       "id": "shp.doubletracking",
@@ -64,8 +60,7 @@
       "asset_pattern": "shp-doubletracking-{version}-win64.zip",
       "vst3_bundle_name": "SHP Double Tracking.vst3",
       "description": "Real-time artificial double tracking with mono-compatible decorrelation",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/doubletracking.png",
-      "manual_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/manuals/doubletracking.pdf"
+      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/doubletracking.png"
     }
   ]
 }
