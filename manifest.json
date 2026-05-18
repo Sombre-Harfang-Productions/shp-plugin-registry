@@ -61,6 +61,18 @@
       "vst3_bundle_name": "SHP Double Tracking.vst3",
       "description": "Real-time artificial double tracking with mono-compatible decorrelation",
       "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/doubletracking.png"
+    },
+    {
+      "id": "shp.drumbus",
+      "slug": "drumbus",
+      "name": "SHP Drum Bus",
+      "category": "bus-processor",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
+      "tag_prefix": "drumbus-v",
+      "asset_pattern": "shp-drumbus-{version}-win64.zip",
+      "vst3_bundle_name": "SHP Drum Bus.vst3",
+      "description": "Drum bus — glue compression, saturation, transient designer, tone EQ",
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/drumbus.png"
     }
   ]
 }
