@@ -7,60 +7,60 @@
       "slug": "vocalstrip",
       "name": "SHP Vocal Strip",
       "category": "channel-strip",
-      "github_repo": "akheron98/shp-builds",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
       "tag_prefix": "vocalstrip-v",
       "asset_pattern": "shp-vocalstrip-{version}-win64.zip",
       "vst3_bundle_name": "SHP Vocal Strip.vst3",
       "description": "Vocal channel strip — clean, fry, growl",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/vocalstrip.png"
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/vocalstrip.png"
     },
     {
       "id": "shp.guitarstrip",
       "slug": "guitarstrip",
       "name": "SHP Guitar Strip",
       "category": "channel-strip",
-      "github_repo": "akheron98/shp-builds",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
       "tag_prefix": "guitarstrip-v",
       "asset_pattern": "shp-guitarstrip-{version}-win64.zip",
       "vst3_bundle_name": "SHP Guitar Strip.vst3",
       "description": "Doom-stack guitar channel strip",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/guitarstrip.png"
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/guitarstrip.png"
     },
     {
       "id": "shp.bassstrip",
       "slug": "bassstrip",
       "name": "SHP Bass Strip",
       "category": "channel-strip",
-      "github_repo": "akheron98/shp-builds",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
       "tag_prefix": "bassstrip-v",
       "asset_pattern": "shp-bassstrip-{version}-win64.zip",
       "vst3_bundle_name": "SHP Bass Strip.vst3",
       "description": "Low-end channel strip with sub harmonics",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/bassstrip.png"
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/bassstrip.png"
     },
     {
       "id": "shp.multibandsaturator",
       "slug": "multibandsaturator",
       "name": "SHP Multiband Tube Saturator",
       "category": "saturation",
-      "github_repo": "akheron98/shp-builds",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
       "tag_prefix": "multibandsaturator-v",
       "asset_pattern": "shp-multibandsaturator-{version}-win64.zip",
       "vst3_bundle_name": "SHP-mb.vst3",
       "description": "Multiband tube-style saturation",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/multibandsaturator.png"
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/multibandsaturator.png"
     },
     {
       "id": "shp.doubletracking",
       "slug": "doubletracking",
       "name": "SHP Double Tracking",
       "category": "stereo-imaging",
-      "github_repo": "akheron98/shp-builds",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
       "tag_prefix": "doubletracking-v",
       "asset_pattern": "shp-doubletracking-{version}-win64.zip",
       "vst3_bundle_name": "SHP Double Tracking.vst3",
       "description": "Real-time artificial double tracking with mono-compatible decorrelation",
-      "icon_url": "https://raw.githubusercontent.com/akheron98/shp-plugin-registry/main/icons/doubletracking.png"
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/doubletracking.png"
     }
   ]
 }
