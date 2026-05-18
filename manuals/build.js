@@ -71,6 +71,13 @@ const pluginConfigs = {
     subtitle: 'STEREO WIDENER — RACK MOUNT SERIES',
     code: 'SHP-DT-RACK',
     sn: 'DT'
+  },
+  'drumbus': {
+    title: 'Drum<br/>Bus',
+    fulltitle: 'DRUM BUS',
+    subtitle: 'GLUE / SATURATION / TRANSIENT — RACK MOUNT SERIES',
+    code: 'SHP-DB-RACK',
+    sn: 'DB'
   }
 };
 
