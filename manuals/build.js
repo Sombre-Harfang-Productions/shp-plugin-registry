@@ -78,6 +78,13 @@ const pluginConfigs = {
     subtitle: 'GLUE / SATURATION / TRANSIENT — RACK MOUNT SERIES',
     code: 'SHP-DB-RACK',
     sn: 'DB'
+  },
+  'master': {
+    title: 'Master',
+    fulltitle: 'MASTER',
+    subtitle: 'COMP / SAT / LIMIT / LUFS — RACK MOUNT SERIES',
+    code: 'SHP-MA-RACK',
+    sn: 'MA'
   }
 };
 
