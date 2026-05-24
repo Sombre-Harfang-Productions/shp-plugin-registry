@@ -85,6 +85,13 @@ const pluginConfigs = {
     subtitle: 'COMP / SAT / LIMIT / LUFS — RACK MOUNT SERIES',
     code: 'SHP-MA-RACK',
     sn: 'MA'
+  },
+  'atmos': {
+    title: 'Atmos<br/>Reverb',
+    fulltitle: 'ATMOS REVERB',
+    subtitle: 'ATMOSPHERIC REVERB — RACK MOUNT SERIES',
+    code: 'SHP-AT-RACK',
+    sn: 'AT'
   }
 };
 

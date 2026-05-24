@@ -85,6 +85,18 @@
       "vst3_bundle_name": "SHP Master Bus.vst3",
       "description": "Master bus — compresseur glue, saturation console, limiteur true-peak, métrologie LUFS",
       "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/master.png"
+    },
+    {
+      "id": "shp.atmos",
+      "slug": "atmos",
+      "name": "SHP Atmos",
+      "category": "reverb",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
+      "tag_prefix": "atmos-v",
+      "asset_pattern": "shp-atmos-{version}-win64.zip",
+      "vst3_bundle_name": "SHP Atmos.vst3",
+      "description": "Atmospheric reverb — FDN-16 and convolution for doom/black",
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/atmos.png"
     }
   ]
 }
