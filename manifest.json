@@ -97,6 +97,18 @@
       "vst3_bundle_name": "SHP Atmos.vst3",
       "description": "Atmospheric reverb — FDN-16 and convolution for doom/black",
       "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/atmos.png"
+    },
+    {
+      "id": "shp.deharsh",
+      "slug": "deharsh",
+      "name": "SHP Deharsh",
+      "category": "dynamic-resonance-suppressor",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
+      "tag_prefix": "deharsh-v",
+      "asset_pattern": "shp-deharsh-{version}-win64.zip",
+      "vst3_bundle_name": "SHP Deharsh.vst3",
+      "description": "Dynamic resonance suppressor — tame sibilance, harshness and resonant peaks (Soothe-style)",
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/deharsh.png"
     }
   ]
 }
