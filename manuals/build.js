@@ -92,6 +92,13 @@ const pluginConfigs = {
     subtitle: 'ATMOSPHERIC REVERB — RACK MOUNT SERIES',
     code: 'SHP-AT-RACK',
     sn: 'AT'
+  },
+  'deharsh': {
+    title: 'Deharsh',
+    fulltitle: 'DEHARSH',
+    subtitle: 'DYNAMIC RESONANCE SUPPRESSOR — RACK MOUNT SERIES',
+    code: 'SHP-DH-RACK',
+    sn: 'DH'
   }
 };
 
