@@ -27,6 +27,18 @@
       "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/guitarstrip.png"
     },
     {
+      "id": "shp.guitarroar",
+      "slug": "guitarroar",
+      "name": "SHP Guitar Roar",
+      "category": "amp-simulator",
+      "github_repo": "Sombre-Harfang-Productions/shp-builds",
+      "tag_prefix": "guitarroar-v",
+      "asset_pattern": "shp-guitarroar-{version}-win64.zip",
+      "vst3_bundle_name": "SHP Guitar Roar.vst3",
+      "description": "Neural Amp Modeler with TONE3000 cloud integration",
+      "icon_url": "https://raw.githubusercontent.com/Sombre-Harfang-Productions/shp-plugin-registry/main/icons/guitarroar.png"
+    },
+    {
       "id": "shp.bassstrip",
       "slug": "bassstrip",
       "name": "SHP Bass Strip",
