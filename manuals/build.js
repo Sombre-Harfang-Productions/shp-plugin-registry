@@ -99,6 +99,13 @@ const pluginConfigs = {
     subtitle: 'DYNAMIC RESONANCE SUPPRESSOR — RACK MOUNT SERIES',
     code: 'SHP-DH-RACK',
     sn: 'DH'
+  },
+  'guitarroar': {
+    title: 'Guitar<br/>Roar',
+    fulltitle: 'GUITAR ROAR',
+    subtitle: 'NEURAL AMP MODELER / TONE3000 — RACK MOUNT SERIES',
+    code: 'SHP-GR-RACK',
+    sn: 'GR'
   }
 };
 
