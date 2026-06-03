@@ -12,18 +12,23 @@ See `manifest.json` for the canonical list. Current entries:
 |---|---|---|---|
 | `shp.vocalstrip`         | `vocalstrip`         | SHP Vocal Strip              | channel-strip |
 | `shp.guitarstrip`        | `guitarstrip`        | SHP Guitar Strip             | channel-strip |
+| `shp.guitarroar`         | `guitarroar`         | SHP Guitar Roar              | amp-simulator |
 | `shp.bassstrip`          | `bassstrip`          | SHP Bass Strip               | channel-strip |
 | `shp.multibandsaturator` | `multibandsaturator` | SHP Multiband Tube Saturator | saturation |
 | `shp.doubletracking`     | `doubletracking`     | SHP Double Tracking          | stereo-imaging |
 | `shp.drumbus`            | `drumbus`            | SHP Drum Bus                 | bus-processor |
+| `shp.master`            | `master`             | SHP Master Bus               | master-bus |
+| `shp.atmos`             | `atmos`              | SHP Atmos                    | reverb |
+| `shp.deharsh`           | `deharsh`            | SHP Deharsh                  | dynamic-resonance-suppressor |
 
 Binary releases live in [`Sombre-Harfang-Productions/shp-builds`](https://github.com/Sombre-Harfang-Productions/shp-builds).
 
 ## Adding a new plugin
 
 1. Add an entry to the `plugins` array in `manifest.json` (see schema below).
-2. Optionally drop an icon at `icons/<slug>.png` and update `icon_url`.
-3. Commit and push. The manager picks it up on its next Refresh — no app update needed.
+2. **Register the slug in `manuals/build.js`** — add a block to the `pluginConfigs` map (keyed by slug, with `title`/`fulltitle`/`subtitle`/`code`/`sn`). Without it, the plugin's release CI fails at the PDF step with `Unknown plugin slug: <slug>` and no release is published.
+3. Optionally drop an icon at `icons/<slug>.png` and update `icon_url`.
+4. Commit and push. The manager picks it up on its next Refresh — no app update needed.
 
 > **Shortcut:** for a new plugin described in a `shp-roadmap` issue, use the `/createPlugins <issue#>` skill in any Claude Code session opened at `D:\projets\vst3` — it scaffolds the source repo, sets secrets, adds this manifest entry, and tags v0.1.0 automatically.
 
